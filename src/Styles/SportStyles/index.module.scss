@@ -1,0 +1,15 @@
+.sport_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+    .title_sport {
+        text-align: center;
+    }
+    span {
+        display: none;
+    }
+    button {
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+/* Архитектура */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-light: #f9f9f9;
+  --color-dark: #1a1818;
+}
+
+html[data-theme="light"] {
+ --background-color: var(--color-light);
+} 
+
+html[data-theme="dark"] {
+  --background-color: var(--color-dark);
+ } 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-color: var( --background-color );
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

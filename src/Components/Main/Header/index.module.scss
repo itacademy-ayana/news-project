@@ -1,0 +1,30 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 15px;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        button {
+            width: 55px;
+            height: 28px;
+            background: none;
+            border: 1px solid black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+    ul a:not(:last-child) {
+        margin-right: 35px;
+    }
+    ul button:not(:last-child) {
+        margin-right: 10px;
+    }
+    a {
+        color: black;
+        font-size: 19px;
+    }
+}

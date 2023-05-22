@@ -1,0 +1,13 @@
+.settings_container {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    .title {
+        text-align: center;
+        margin: 40px 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
